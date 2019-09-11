@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.ResultadoActivity"
+    style="@style/LinearLayoutResultado">
+
+    <TextView
+        android:text="Resultado Final"
+        style="@style/TVResultado" />
+
+    <LinearLayout
+        style="@style/LinearLayoutTVResultado">
+
+        <TextView
+            style="@style/TextViewResultado"
+            android:text="@string/disciplina1"
+            android:id="@+id/tvDisciplina1"
+            />
+        <TextView
+            android:text="@string/media1"
+            android:id="@+id/tvMedia1"
+            style="@style/TextViewResultado" />
+        <TextView
+            style="@style/TextViewResultado"
+            android:text="@string/situação1"
+            android:id="@+id/tvSituacao1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutTVResultado">
+
+        <TextView
+            style="@style/TextViewResultado"
+            android:text="@string/disciplina2"
+            android:id="@+id/tvDisciplina2"
+            />
+        <TextView
+            style="@style/TextViewResultado"
+            android:text="@string/nota2"
+            android:id="@+id/tvMedia2"/>
+        <TextView
+            style="@style/TextViewResultado"
+            android:text="@string/situação2"
+            android:id="@+id/tvSituacao2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutTVResultado">
+
+        <TextView
+            style="@style/TextViewResultado"
+            android:text="@string/mediaGeral"
+            android:id="@+id/tvMediaGeral"
+            />
+        <TextView
+            style="@style/TextViewResultado"
+            android:text="@string/situaçãoGeral"
+            android:id="@+id/tvSituacaoGeral"/>
+    </LinearLayout>
+
+    <Button
+        style="@style/Button"
+        android:text="Voltar"
+        android:onClick="voltar"/>
+
+</LinearLayout>

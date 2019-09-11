@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.MainActivity"
+    style="@style/LinerLayoutPrincipal">
+
+    <TextView
+        style="@style/base"
+        android:text="@string/disciplina1"/>
+    <EditText
+        android:hint="@string/hint_disciplina1"
+        android:id="@+id/editNomeDisciplina1"
+        style="@style/EdityText" />
+
+    <LinearLayout
+        style="@style/base"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/LinearLayoutTela">
+            <TextView
+                android:text="@string/nota1"
+                style="@style/TextViewNumber" />
+            <NumberPicker
+                style="@style/NumberPicker"
+                android:id="@+id/npNota1">
+            </NumberPicker>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutTela">
+
+            <TextView
+                style="@style/TextViewNumber"
+                android:text="@string/nota2"
+                />
+            <NumberPicker
+                style="@style/NumberPicker"
+                android:id="@+id/npNota2">
+
+            </NumberPicker>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearLayoutTela">
+
+            <TextView
+                style="@style/TextViewNumber"
+                android:text="@string/nota3"
+                />
+            <NumberPicker
+                android:id="@+id/npNota3"
+                style="@style/NumberPicker">
+            </NumberPicker>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:text="Próxima"
+        android:onClick="proxima"
+        style="@style/Button" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediaDuasDisciplinas</string>
+    <string name="disciplina1">Discipline 1</string>
+    <string name="disciplina1Final">Discipline 1</string>
+    <string name="disciplina2">Discipline 2</string>
+    <string name="disciplina2Final">Discipline 2</string>
+    <string name="erro_disciplina_obrigatorao">The name of the discipline is mandatory</string>
+    <string name="hint_disciplina1">Enter the name of the discipline 1</string>
+    <string name="hint_disciplina2">Enter the name of the discipline 2</string>
+    <string name="media1">Media</string>
+    <string name="media2">Media</string>
+    <string name="mediaGeral">General Media</string>
+    <string name="nota1">Note 1</string>
+    <string name="nota2">Note 2</string>
+    <string name="nota3">Note 3</string>
+    <string name="numero">Number</string>
+    <string name="situação1">Situation</string>
+    <string name="situação2">Situation</string>
+    <string name="situaçãoGeral">General Situation</string>
+</resources>

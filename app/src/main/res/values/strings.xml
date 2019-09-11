@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MediaDuasDisciplinas</string>
+    <string name="disciplina1">Disciplina 1</string>
+    <string name="hint_disciplina1">Digite o nome da disciplina 1</string>
+    <string name="erro_disciplina_obrigatorao">Nome da disciplina é obrigatória</string>
+    <string name="disciplina2">Disciplina 2</string>
+    <string name="hint_disciplina2">Digite o nome da disciplina 2</string>
+    <string name="numero">Numero</string>
+    <string name="hint_numero" translatable="false">0</string>
+    <string name="disciplina1Final">Disciplina 1: </string>
+    <string name="hint_disciplina1Final" translatable="false"></string>
+    <string name="media1">Media: </string>
+    <string name="hint_media1" translatable="false"></string>
+    <string name="situação1">Situação: </string>
+    <string name="hint_situacao1" translatable="false"></string>
+    <string name="disciplina2Final">Disciplina 2: </string>
+    <string name="hint_disciplina2Final" translatable="false"></string>
+    <string name="media2">Media: </string>
+    <string name="hint_media2" translatable="false"></string>
+    <string name="situação2">Situação: </string>
+    <string name="hint_situacao2" translatable="false"></string>
+    <string name="mediaGeral">Média Geral: </string>
+    <string name="hint_mediaGeral" translatable="false"></string>
+    <string name="situaçãoGeral">Situação Geral: </string>
+    <string name="hint_situacaoGeral" translatable="false"></string>
+    <string name="nota1">Nota 1</string>
+    <string name="nota2">Nota 2</string>
+    <string name="nota3">Nota 3</string>
+</resources>
